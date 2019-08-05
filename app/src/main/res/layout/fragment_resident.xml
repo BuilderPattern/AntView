@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:gravity="center"
+              android:orientation="vertical">
+
+
+    <com.example.administrator.anyview.my_views.AnyClockView
+        android:id="@+id/myClockView"
+        app:textTimeColor="#0000ff"
+        app:textTimeSize="18dp"
+        app:degreeColor="@color/colorPrimary"
+        app:circleColor="@color/colorPrimary"
+        app:hourIndicatorColor="@color/color_109f4b"
+        app:minIndicatorColor="@color/color_109f4b"
+        app:secondIndicatorColor="@color/color_109f4b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

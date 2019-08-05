@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <com.example.anyview.ViewGroupA
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_1366da"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <com.example.anyview.ViewA
+            android:id="@+id/viewA"
+            android:layout_width="200dp"
+            android:background="@color/color_ffffff"
+            android:layout_height="90dp" />
+
+        <com.example.anyview.ViewGroupB
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="@dimen/px_20"
+            android:background="@color/color_22c064"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <com.example.anyview.ViewB
+                android:layout_width="100dp"
+                android:layout_height="90dp" />
+        </com.example.anyview.ViewGroupB>
+
+
+    </com.example.anyview.ViewGroupA>
+
+
+    <!--<com.example.administrator.anyview.my_views.MyCountView-->
+    <!--android:id="@+id/myCountView"-->
+    <!--android:layout_width="60dp"-->
+    <!--android:layout_height="60dp"/>-->
+
+    <!--<com.example.administrator.anyview.my_views.MyAttrView-->
+    <!--android:id="@+id/myAttrView"-->
+    <!--app:text="0"-->
+    <!--app:background="@color/color_0786e7"-->
+    <!--app:gravity="vertical_center"-->
+    <!--app:textColor="#ffffff"-->
+    <!--app:textSize="50dp"-->
+    <!--android:layout_width="60dp"-->
+    <!--android:layout_height="60dp"/>-->
+
+    <!--<com.example.administrator.anyview.my_views.MyColorFullView-->
+    <!--android:id="@+id/myColorFullTextView"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:padding="20dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:text="My Android TextView"/>-->
+
+    <!--<com.example.boco.myclickcounntview.my_view.MyExplainImageView-->
+    <!--android:layout_width="100dp"-->
+    <!--android:layout_height="100dp"/>-->
+
+    <!--<com.example.boco.myclickcounntview.my_view.MyProgressBar-->
+    <!--android:id="@+id/mProgressBar"-->
+    <!--android:layout_marginLeft="20dp"-->
+    <!--android:layout_width="160dp"-->
+    <!--android:layout_height="160dp"/>-->
+
+</LinearLayout>

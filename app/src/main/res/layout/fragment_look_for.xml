@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+        <com.example.administrator.anyview.my_views.MyMediaView
+            android:id="@+id/fragment_oneView"
+            android:layout_marginTop="20dp"
+            android:layout_centerInParent="true"
+            android:layout_width="200dp"
+            android:layout_height="200dp"/>
+
+        <com.example.administrator.anyview.my_views.MyLoadingView
+            android:layout_width="60dp"
+            android:layout_height="60dp"/>
+
+        <TextView
+            android:id="@+id/clickTv"
+            android:text="点击开始"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+
+        <com.example.administrator.anyview.my_views.MyLoadCircleView
+            android:id="@+id/two_downLoadView"
+            app:loadColor="#0786e7"
+            app:startAngle="0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+</LinearLayout>
