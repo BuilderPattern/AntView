@@ -102,10 +102,10 @@ public class GestureUnLockView extends View {
     private void drawBigPoints(Canvas canvas) {
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                int cX = (int) (mRadius * (j + 1) * 3);
-                int cY = (int) (mRadius * (i + 1) * 3);
+                int cX = (int) (mRadius * (j * 4 + 3));
+                int cY = (int) (mRadius * (i * 4 + 3));
                 BigPointView bigPointView = new BigPointView(cX, cY);
-                bigPointView.setPosition(index);//设置编号
+                bigPointView.setPosition(index);//设置密码编号
                 mBigPointArray[i][j] = bigPointView;
                 canvas.drawCircle(cX, cY, mRadius, mBigPointPaint);
                 index++;
